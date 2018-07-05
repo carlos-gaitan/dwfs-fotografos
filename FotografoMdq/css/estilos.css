@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+body{
+    margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+	background: rgb(230, 230, 230);
+}
+
+.header{
+	height: 50px;
+	width: 90%;
+	
+	font-size: 20px;
+	margin: 20px auto;
+	background: #404969;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+	
+	box-shadow: 0px 4px 4px 0px rgba(0,0,0.2);
+}
+.header #uno{
+	float: left;
+	margin: -15px auto;
+}
+.header #uno h1:hover{
+	color: rgb(156, 137, 28);
+	-webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+
+}
+.header #dos{
+	float: right;
+	margin: 20px auto;
+}
+.header #dos a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px;
+}
+.header #dos a:hover{
+	color: rgb(156, 137, 28);
+	-webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+}
+.slider {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	border: 5px solid rgba(42, 55, 230, 0.555);
+	box-shadow: 0px 4px 4px 0px rgba(0,0,0.2);
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+/*                        Footer     & copy           */
+
+.copy{
+	color: grey;
+	z-index:1000;
+	max-width: 1400px;
+	width:95%;
+	margin:20px auto;
+}
+
+
+#footer {
+	text-decoration: none;
+	z-index:1000;
+	max-width: 1400px;
+	width:95%;
+	margin:20px auto;
+	height: 45%;
+	min-height: 400px;
+	background: rgb(156, 137, 28);
+	color: white;
+	text-align: center;
+	display: flex;
+	display: flex;
+	flex-flow: row wrap;
+	box-shadow: 5px 5px #0118264d;
+
+	
+	
+}
+#footer p{
+	
+	text-align: left;
+	padding: 5px;
+	margin: 25px;
+	font-family: 'Quicksand', sans-serif;
+	color: #000;	
+}
+#footer h3{
+		font-size: 40px;
+		padding: 8px;
+		 color: #fff;
+		 text-shadow: 4px 4px  rgba(0,0,0.2);
+		font-family: 'Raleway', sans-serif;
+}
+#footer ul li{
+	padding: 8px;
+}
+#footer ul li strong{
+	color: #072131;
+}
+
+.dos{	
+	flex: 1;
+	flex:1;
+	order: 1;
+	margin: 2px;
+	
+}
+
+
+.footer-item {
+	display: flex;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+
+/*                footer responsive                */
+@media all and (max-width: 500px) {
+	#footer { flex-direction: column; }
+	.footer-item{
+		order: 0;
+		 width: 100%;
+	}
+}
+
+
+
+/* pagina individual */
+
+.individual {
+	background: #cccccc59;
+	font-family: Helvetica, sans-serif;
+	width: 880px;
+	margin: 0 auto;
+}
+.individual div {
+	padding: 60px 50px 100px;
+}
+
+.individual h2 {
+	font-size: 40px;	
+	color: #5171A5;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: Garamond;
+}
+
+.individual h3 {
+	font-size: 30px;
+	color: #272635;
+}
+.individual h4 { 
+	font-size: 20px;
+}
+
+.individual a {
+	color: #53599A;
+	font-size: 28px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.individual a:hover {
+	color: #068D9D;
+}
+
+p {
+	font-size: 16px;
+	color: #151E3F;
+	margin: 0 auto;
+}
+
+.individual .primera {
+	float: left;
+	padding: 60px 50px 20px;
+}
+
+.individual .more {
+	font-size: 14px;
+	display: inline-block;
+	padding-top: 15px;
+}
+
+.individual .comprar {
+	border: 2px solid #005999;
+    border-radius: 2px;
+    padding: 9px 14px;
+    margin-top: 20px;
+    display: block;
+    width: 115px;
+}
+
+
+.individual .comprar:hover {
+	border-color: #068D9D;
+}
+.individual .clear {
+	clear: both;
+	padding: 0 50px;
+}
+
+.individual .clear p {
+	padding-bottom: 15px;
+}
+
+.artista {
+	width: 100%;
+	margin: 10% auto;
+}
+
+.individual label {
+	padding-right: 15px;
+}
+
+
+
+
+
+
+.tarjeta {
+    position: relative;
+    width:300px;
+    float: left;
+    justify-content: center;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+    height: 280px;
+    display: block;
+    margin: 20px;
+}
+
+.boton {
+    background: #005999;
+    color: #fefefe;
+    justify-content: center;
+    width: 98%;
+    margin: 1%;
+    height: 30px;
+    border: #005999;
+    
+}
+
+
+.imagen{
+    width: 98%;
+    height: 80%;
+    margin: 1%;
+    justify-content: flex-start;
+}
+
+.galeria {
+    margin: auto;
+    width: 80%;
+    
+}

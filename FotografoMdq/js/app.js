@@ -9,14 +9,14 @@ var marcoSeleccionado = 0;
 
 var parametros = {
   calidad: {
-    1: {'text':'baja', 'valor':100},
-    2: {'text':'media', 'valor':300},
-    3: {'text':'alta', 'valor':500}
+    0: {'text':'baja', 'valor':100},
+    1: {'text':'media', 'valor':300},
+    2: {'text':'alta', 'valor':500}
   },
   tamano: {
-    1: {'text':'s', 'valor':1},
-    2: {'text':'m', 'valor':1.5},
-    3: {'text':'l', 'valor':2}
+    0: {'text':'s', 'valor':1},
+    1: {'text':'m', 'valor':1.5},
+    2: {'text':'l', 'valor':2}
   },
   marco:{
     0: 0,

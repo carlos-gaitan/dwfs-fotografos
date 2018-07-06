@@ -62,7 +62,20 @@ document.addEventListener('DOMContentLoaded', function(event)
   calidad.addEventListener('change', function() {
     setearCalidad(this.value);
   });
+
+  var marco = document.getElementById('marco');
+  marco.addEventListener('change', function() {
+    if(this.checked){
+      setearMarco(1);
+    }
+    else {
+    setearMarco(0);
+    }
+
+  });
 });
+
+
 // actualiza el monto en pantalla
 function actualizarValorEnPantalla() {
   document.getElementById('monto').innerHTML = '$' + valor;

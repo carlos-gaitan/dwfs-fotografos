@@ -9,10 +9,9 @@ body{
 .header{
 	height: 50px;
 	width: 90%;
-	
-	font-size: 20px;
+	font-size: 16px;
 	margin: 20px auto;
-	background: #404969;
+	background: #151d7b;
 	text-decoration: none;
 	color: #fff;
 	text-align: center;
@@ -101,7 +100,7 @@ body{
 	margin:20px auto;
 	height: 45%;
 	min-height: 400px;
-	background: #005999;
+	background: #151d7b;
 	color: white;
 	text-align: center;
 	display: flex;
@@ -115,10 +114,11 @@ body{
 #footer p{
 	
 	text-align: left;
-	padding: 5px;
-	margin: 25px;
+	padding: 0 5px;
+	margin: 14px;
 	font-family: 'Quicksand', sans-serif;
-	color: #000;	
+	color: #fff;
+	line-height: 20px;	
 }
 #footer h3{
 		font-size: 40px;
@@ -266,13 +266,13 @@ p {
 }
 
 .boton {
-    background: #005999;
+    background: #151d7b;
     color: #fefefe;
     justify-content: center;
     width: 98%;
     height: 100%;
     text-decoration: none;
-    border: #005999;
+    border: #151d7b;
 	display: inline-block;
 	text-align: center;
 	padding: 14px 3px;

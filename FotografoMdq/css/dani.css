@@ -23,7 +23,8 @@
 	color: #272635;
 }
 .individual h4 { 
-	font-size: 20px;
+	font-size: 25px;
+	margin-bottom: 20px;
 }
 
 .individual a {
@@ -62,8 +63,9 @@ p {
 	width: 200px;
 	display: block;
 	text-align: center;
-	margin-top: 30px;
-	border-radius: 10px;
+	margin-top: 50px;
+	font-size: 30px;
+	margin-bottom: 40px
 }
 
 .individual .comprar:hover {

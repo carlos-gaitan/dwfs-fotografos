@@ -1,0 +1,113 @@
+/* pagina individual */
+
+.individual {
+	background: #cccccc59;
+	font-family: Helvetica, sans-serif;
+	width: 880px;
+	margin: 0 auto;
+}
+.individual div {
+	padding: 60px 50px 100px;
+}
+
+.individual h2 {
+	font-size: 40px;	
+	color: #5171A5;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: Garamond;
+}
+
+.individual h3 {
+	font-size: 30px;
+	color: #272635;
+}
+.individual h4 { 
+	font-size: 20px;
+}
+
+.individual a {
+	color: #53599A;
+	font-size: 28px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.individual a:hover {
+	color: #068D9D;
+}
+
+p {
+	font-size: 16px;
+	color: #151E3F;
+	margin: 0 auto;
+}
+
+.individual .primera {
+	float: left;
+	padding: 60px 50px 20px;
+}
+
+.individual .more {
+	font-size: 14px;
+	display: inline-block;
+	padding-top: 15px;
+}
+
+.individual .comprar {
+	border: 2px solid #53599A;
+	background: transparent;
+	padding: 10px;
+	color: #52599A;
+	width: 200px;
+	display: block;
+	text-align: center;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+
+.individual .comprar:hover {
+	border-color: #068D9D;
+}
+.individual .clear {
+	clear: both;
+	padding: 0 50px;
+}
+
+.individual .clear p {
+	padding-bottom: 15px;
+}
+
+.artista {
+	width: 100%;
+	margin: 10% auto;
+}
+
+.individual label {
+	padding-right: 15px;
+}
+
+.individual select {
+	border: 1px solid #53599A;
+	background-color: #fff;
+	height: 40px;
+	font-size: 25px;
+	width: 150px;
+	color: #53599A;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.individual label {
+	font-size: 25px;
+	color: #53599A;
+}
+
+.individual #marco {
+	position: relative;
+	bottom: 3px;
+}
+
+.artist {
+	line-height: 20px;
+}

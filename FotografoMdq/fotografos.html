@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Foto Individual</title>
 	<link rel="stylesheet" type="text/css" media="screen" href="css/dani.css" />
-
+	<script src="js/app.js" type="text/javascript"></script>
 </head>
 <body class="individual">
 	<div class="primera">
@@ -17,7 +17,7 @@
 	</div>
 	<div class="clear buy">
 		<h3 id="monto">$</h3>
-		<select id="miSelect1" class="select_tam">
+		<select id="tam" class="select_tam">
 			<option value="tamaño" disabled selected>Tamaño</option>
 			<option value="0">800px</option>
 			<option value="1">1200px</option>
@@ -29,7 +29,7 @@
 			<option value="media">Media</option>
 			<option value="alta">Alta</option>
 		</select>
-		<input id="marco" type="radio"> <label>Con marco</label>
+		<input id="marco" type="checkbox"> <label>Con marco</label>
 		<input type="button" value="COMPRAR" id="btnForm" class="comprar" onclick="selectTam()"></input>
 	</div>	
 </body>
